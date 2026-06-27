@@ -1,0 +1,56 @@
+# Environment variables (sensitive!)
+.env
+.env.local
+.env.*.local
+
+# Database files
+*.db
+jobs_database.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Streamlit
+.streamlit/
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+job_scraper.log
+
+# Backup files
+*.bak
+*_backup.py
+
+# Excel files (local development)
+job_alerts_*.xlsx
+job_alerts_*.csv
+
+# Cache
+.cache/
+.pytest_cache/
+
+# Distribution
+build/
+dist/
+*.egg-info/
